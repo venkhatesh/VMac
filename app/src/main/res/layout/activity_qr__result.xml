@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.venkat.vmac.QR_Result"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dr_id"
+        android:hint="Doctor Id"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pt_id"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:hint="Patient ID"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/med_id"
+        android:layout_margin="10dp"
+        android:hint="Medicine Name"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Price"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Payment"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="pay_clk"/>
+
+    <TextView
+        android:id="@+id/pt_sus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO BACK"
+        android:onClick="clkbk"
+        android:id="@+id/gb"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VMac</string>
+    <string name="title_activity_qr__result">QR_Result</string>
+</resources>
